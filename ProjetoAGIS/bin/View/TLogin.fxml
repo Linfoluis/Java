@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.TLoginController">
+   <children>
+      <TextField fx:id="txtUsuario" alignment="CENTER" layoutX="126.0" layoutY="117.0" promptText="Usuário" />
+      <TextField fx:id="txtSenha" alignment="CENTER" layoutX="126.0" layoutY="171.0" promptText="Senha" />
+      <Button fx:id="btnLogin" layoutX="174.0" layoutY="222.0" mnemonicParsing="false" onAction="#ValidaLogin" text="Login" />
+      <Label layoutX="142.0" layoutY="33.0" text="𝑨𝑮𝑰𝑺">
+         <font>
+            <Font name="Arial" size="50.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
